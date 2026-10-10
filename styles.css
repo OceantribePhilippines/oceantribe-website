@@ -618,3 +618,4 @@ a:focus-visible,button:focus-visible,.crs-top:focus-visible,.prow-top:focus-visi
 .navy-band .sec-cta .btn-wa{background:var(--pink);color:#fff}
 .sec-cta .text-link{color:var(--navy);border-bottom-color:var(--navy)}
 .navy-band .sec-cta .text-link,.deep .sec-cta .text-link{color:#fff;border-bottom-color:rgba(255,255,255,.55)}
+@media (min-width:1001px){.team-home .team-grid{grid-template-columns:repeat(4,1fr)}}
