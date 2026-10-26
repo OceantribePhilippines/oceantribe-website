@@ -632,3 +632,5 @@ a:focus-visible,button:focus-visible,.crs-top:focus-visible,.prow-top:focus-visi
 @media (max-width:860px){.wiki-feature{grid-template-columns:1fr}.wiki-feature>img{aspect-ratio:4/3;order:2}}
 .stats.three{grid-template-columns:repeat(3,1fr)}
 @media (max-width:900px){.stats.three{grid-template-columns:1fr}}
+.btn-white{background:#fff;color:var(--navy)}
+.btn-white:hover{background:var(--ow)}
