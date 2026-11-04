@@ -38,8 +38,8 @@
     box.setAttribute("role", "dialog");
     box.setAttribute("aria-label", "Cookie choice");
     box.innerHTML =
-      "<p><b>Help us improve this site?</b> We use Contentsquare to see where visitors tap and scroll, so we can make booking easier. It sets cookies and records anonymous sessions. Our visitor counts never use cookies.</p>" +
-      '<div class="ot-row"><button type="button" class="ot-no">No thanks</button><button type="button" class="ot-yes">Accept</button></div>';
+      "<p><b>We use cookies.</b> They help us improve your experience and understand how our site is used.</p>" +
+      '<div class="ot-row"><button type="button" class="ot-no">Decline</button><button type="button" class="ot-yes">Accept</button></div>';
     box.querySelector(".ot-yes").addEventListener("click", function () { write("granted"); hide(); loadCS(); });
     box.querySelector(".ot-no").addEventListener("click", function () { var was = !!document.getElementById("ot-cs"); write("denied"); hide(); if (was) location.reload(); });
     document.body.appendChild(box);
